@@ -10,4 +10,3 @@ G:\DempApps\Factory\App\App.SimpleFactory\bin\Debug\netcoreapp3.1\App.SimpleFact
 G:\DempApps\Factory\App\App.SimpleFactory\obj\Debug\netcoreapp3.1\App.SimpleFactory.dll
 G:\DempApps\Factory\App\App.SimpleFactory\obj\Debug\netcoreapp3.1\App.SimpleFactory.pdb
 G:\DempApps\Factory\App\App.SimpleFactory\obj\Debug\netcoreapp3.1\App.SimpleFactory.genruntimeconfig.cache
-G:\DempApps\Factory\App\App.SimpleFactory\obj\Debug\netcoreapp3.1\App.SimpleFactory.csprojAssemblyReference.cache

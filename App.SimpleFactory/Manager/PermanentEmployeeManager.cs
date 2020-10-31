@@ -15,5 +15,9 @@ namespace App.SimpleFactory.Manager
         {
             return 100;
         }
+      public  int GetHourseAllowance()
+        {
+            return 150;
+        }
     }
 }

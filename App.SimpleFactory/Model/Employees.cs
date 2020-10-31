@@ -15,6 +15,9 @@ namespace App.SimpleFactory.Model
         public decimal Bonus { get; set; }
         public int EmployeeTypeID { get; set; }
 
+        public int HourseAllowance { get; set; }
+        public int MedicalAllowance { get; set; }
+
         //public virtual Employee_Type Employee_Type { get; set; }
     }
 }
