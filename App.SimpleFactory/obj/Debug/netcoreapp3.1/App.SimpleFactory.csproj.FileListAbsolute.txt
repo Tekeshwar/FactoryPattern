@@ -1,0 +1,12 @@
+G:\DempApps\Factory\App\App.SimpleFactory\obj\Debug\netcoreapp3.1\App.SimpleFactory.AssemblyInfoInputs.cache
+G:\DempApps\Factory\App\App.SimpleFactory\obj\Debug\netcoreapp3.1\App.SimpleFactory.AssemblyInfo.cs
+G:\DempApps\Factory\App\App.SimpleFactory\obj\Debug\netcoreapp3.1\App.SimpleFactory.csproj.CoreCompileInputs.cache
+G:\DempApps\Factory\App\App.SimpleFactory\bin\Debug\netcoreapp3.1\App.SimpleFactory.exe
+G:\DempApps\Factory\App\App.SimpleFactory\bin\Debug\netcoreapp3.1\App.SimpleFactory.deps.json
+G:\DempApps\Factory\App\App.SimpleFactory\bin\Debug\netcoreapp3.1\App.SimpleFactory.runtimeconfig.json
+G:\DempApps\Factory\App\App.SimpleFactory\bin\Debug\netcoreapp3.1\App.SimpleFactory.runtimeconfig.dev.json
+G:\DempApps\Factory\App\App.SimpleFactory\bin\Debug\netcoreapp3.1\App.SimpleFactory.dll
+G:\DempApps\Factory\App\App.SimpleFactory\bin\Debug\netcoreapp3.1\App.SimpleFactory.pdb
+G:\DempApps\Factory\App\App.SimpleFactory\obj\Debug\netcoreapp3.1\App.SimpleFactory.dll
+G:\DempApps\Factory\App\App.SimpleFactory\obj\Debug\netcoreapp3.1\App.SimpleFactory.pdb
+G:\DempApps\Factory\App\App.SimpleFactory\obj\Debug\netcoreapp3.1\App.SimpleFactory.genruntimeconfig.cache
