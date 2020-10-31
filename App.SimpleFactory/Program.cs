@@ -1,4 +1,4 @@
-﻿using App.SimpleFactory.Factory;
+﻿using App.SimpleFactory.Factory.FactoryMethod;
 using App.SimpleFactory.Manager;
 using App.SimpleFactory.Model;
 using System;
@@ -10,6 +10,7 @@ namespace App.SimpleFactory
         static void Main(string[] args)
         {
             Employees employees = new Employees();
+            //=== Get user inputs=====
             Console.WriteLine("Enter the Employee Name:- ");
             string employeeName = string.Empty;
             employeeName = Console.ReadLine();
@@ -20,19 +21,16 @@ namespace App.SimpleFactory
             employees.Name= employeeName;
             employees.EmployeeTypeID = employeeTypeID;
 
-            // ====pass data to factory====
-            EmployeeManagerFactory employeeManagerFactory = new EmployeeManagerFactory();
-            IEmployeeManager empManager = employeeManagerFactory.GetEmployeeManager(employees.EmployeeTypeID);
-            employees.Bonus = empManager.GetBonus();
-            employees.HourlyPay = empManager.GetPay();
+            // ====Pass data to factory====
+            BaseEmployeeFactory employeeManagerFactory = new EmployeeManagerFactory().CreateFectory(employees);            
+            employeeManagerFactory.ApplySalary();
 
-            //======= add employee db======
+            //======= Print Employee Details ======
             Console.WriteLine("Employee Name:- " + employees.Name);
             Console.WriteLine("Employee Bonus:- "+ employees.HourlyPay);
             Console.WriteLine("Employee Bonus:- "+ employees.Bonus);
-
-
-
+            Console.WriteLine("Employee MedicalAllowance:- " + employees.MedicalAllowance);
+            Console.WriteLine("Employee HourseAllowance:- " + employees.HourseAllowance);
 
         }
     }

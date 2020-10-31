@@ -16,5 +16,10 @@ namespace App.SimpleFactory.Manager
         {
             return 10;
         }
+
+       public int  GetMedicalAllowance()
+        {
+            return 100;
+        }
     }
 }
